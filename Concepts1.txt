@@ -45,33 +45,105 @@ Git
         - Use "git commit --amend "[New message]"
 
 Python
-1.  How do I run my code from the terminal?
-2.  What can I use to reference a value later in my code?
-3.  How can I make my program display text or some value in my terminal?
-4.  How can I make my code make decisions on which code to execute?
-5.  How can I repeat blocks of code based on conditions?
-6.  Why is it critical to ensure that our conditions eventually become false when repeating blocks of code?
-7.  What are sequences and what are the differences between them?
-8.  How do I access a value within the various types of sequences?
-9.  What is an index when talking about sequences?
-10. What is the index of the first value within a sequence?
-11. How can I add or remove a value from a sequence?
-12. What is the index of the last value within a sequence?
-13. How can I get the length of a sequence?
-14. What can I use to reference and use a block of code later in my code?
-15. What is DRY?
-16. What is Scope? Provide an example.
-17. What is the difference between parameters and arguments?
-18. What is recursion?
-19. How can you return a value from a function?
-20. Describe a dictionary. How and why would it be useful?
-21. How can you remove a value from a dictionary?
-22. How can you access and change values within a dictionary?
-23. What data types can a sequence hold?
-24. What data types can a dictionary hold?
-25. How can you iterate through a dictionary?
-26. What is object oriented programming?
-27. Describe a class? Why are they useful?
-28. What are class properties? How would I give a class an initial set of properties?
-29. What are class methods?
-30. What is inheritence?
+
+    1.  How do I run my code from the terminal?
+        - Use "python [file.py]
+
+    2.  What can I use to reference a value later in my code?
+        - Use a variable
+
+    3.  How can I make my program display text or some value in my terminal?
+        - Use "print" function
+
+    4.  How can I make my code make decisions on which code to execute?
+        - Use "if-else statement"
+
+    5.  How can I repeat blocks of code based on conditions?
+        - Use a function
+
+    6.  Why is it critical to ensure that our conditions eventually become false when repeating blocks of code?
+        - To prevent an infinite loop
+
+    7.  What are sequences and what are the differences between them?
+        - Sequences provides an ordered structure to the objects within
+        - There are 2 types of sequences: Mutable and Immutable
+            + Mutable sequences allows you to change the values within
+                * Ex: Lists
+            + Immutable sequences does not allow you to change the values within.
+                * Ex: Tuplets
+
+    8.  How do I access a value within the various types of sequences?
+        - Use the variable for the sequence w/ "[]" and the position of the object.
+        - Ex: Power = [1,2,3,4]
+                print(Power[1]) ------------> Outcome: 2
+
+    9.  What is an index when talking about sequences?
+        - The index is the cpu's numeric order for the objects within.
+
+    10. What is the index of the first value within a sequence?
+        - The index always starts at "0" moving forward
+
+    11. How can I add or remove a value from a sequence?
+        - Use the sequence name w/ [index number] = whatever you want
+        
+    12. What is the index of the last value within a sequence?
+        - Depends on the number of objects you have in the sequence
+        - Going backwards, the last/first number is "-1".
+
+    13. How can I get the length of a sequence?
+        - Use "len()" then sequence name
+
+    14. What can I use to reference and use a block of code later in my code?
+        - Use a function
+
+    15. What is DRY?
+        - Acronym: Don't Repeat yourself
+
+    16. What is Scope? Provide an example.
+        - A block of code of a function
+
+    17. What is the difference between parameters and arguments?
+        - Parameters are place holder value used beside the function. Inside the ().
+        - Arguments are the values actually used by the function.
+
+    18. What is recursion?
+        - A function that calls itself
+
+    19. How can you return a value from a function?
+        - use a "return" statement
+
+    20. Describe a dictionary. How and why would it be useful?
+        - Using a dictionary is like using a phonebook
+        - Used to store values in key value pairs
+
+    21. How can you remove a value from a dictionary?
+        - Use ".pop()"
+
+    22. How can you access and change values within a dictionary?
+        - Use the dictionary name and the specific key for the value.
+
+    23. What data types can a sequence hold?
+        - Strings, Intergers, floats, etc.
+
+    24. What data types can a dictionary hold?
+        - Uses key: value pairs
+
+    25. How can you iterate through a dictionary?
+        - Use "for" loops
+
+    26. What is object oriented programming?
+        - A method used to categorize relateable properties into an object
+
+    27. Describe a class? Why are they useful?
+        - A class is like a blueprint
+        - Used to categorize
+
+    28. What are class properties? How would I give a class an initial set of properties?
+        - Class name, variables and objects
+        - Set the initial properties using "def __init__(objects)
+
+    29. What are class methods?
+        - Specific abilities given to an object.
+
+    30. What is inheritence?
+        - Sub-classes from an original class.
