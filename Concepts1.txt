@@ -43,3 +43,35 @@ Git
 
     9. Let’s say I wrote a bad message for a commit. How could I change it?
         - Use "git commit --amend "[New message]"
+
+Python
+1.  How do I run my code from the terminal?
+2.  What can I use to reference a value later in my code?
+3.  How can I make my program display text or some value in my terminal?
+4.  How can I make my code make decisions on which code to execute?
+5.  How can I repeat blocks of code based on conditions?
+6.  Why is it critical to ensure that our conditions eventually become false when repeating blocks of code?
+7.  What are sequences and what are the differences between them?
+8.  How do I access a value within the various types of sequences?
+9.  What is an index when talking about sequences?
+10. What is the index of the first value within a sequence?
+11. How can I add or remove a value from a sequence?
+12. What is the index of the last value within a sequence?
+13. How can I get the length of a sequence?
+14. What can I use to reference and use a block of code later in my code?
+15. What is DRY?
+16. What is Scope? Provide an example.
+17. What is the difference between parameters and arguments?
+18. What is recursion?
+19. How can you return a value from a function?
+20. Describe a dictionary. How and why would it be useful?
+21. How can you remove a value from a dictionary?
+22. How can you access and change values within a dictionary?
+23. What data types can a sequence hold?
+24. What data types can a dictionary hold?
+25. How can you iterate through a dictionary?
+26. What is object oriented programming?
+27. Describe a class? Why are they useful?
+28. What are class properties? How would I give a class an initial set of properties?
+29. What are class methods?
+30. What is inheritence?
