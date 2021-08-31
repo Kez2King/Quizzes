@@ -47,19 +47,26 @@ Git
 Python
 
     1.  How do I run my code from the terminal?
-        - Use "python [file.py]
+        - Use "python [file.py]"
+        - python Concepts1.py
 
     2.  What can I use to reference a value later in my code?
         - Use a variable
+        - Ex: welcome = "Hello World"
 
     3.  How can I make my program display text or some value in my terminal?
         - Use "print" function
+        - Ex: print(welcome)
 
     4.  How can I make my code make decisions on which code to execute?
         - Use "if-else statement"
+        - Ex: if cats == cats:
+                print("We love Cats")
+              else:
+                print("Its a dogs world")
 
     5.  How can I repeat blocks of code based on conditions?
-        - Use a function
+        - Use a Function
 
     6.  Why is it critical to ensure that our conditions eventually become false when repeating blocks of code?
         - To prevent an infinite loop
@@ -79,19 +86,26 @@ Python
 
     9.  What is an index when talking about sequences?
         - The index is the cpu's numeric order for the objects within.
+        - Ex: groceries = ["Apples", "Bananas", "Peaches"]
+                              0         1          2
 
     10. What is the index of the first value within a sequence?
         - The index always starts at "0" moving forward
 
     11. How can I add or remove a value from a sequence?
         - Use the sequence name w/ [index number] = whatever you want
+        - Ex: groceries[1] = "Strawberries"
         
     12. What is the index of the last value within a sequence?
         - Depends on the number of objects you have in the sequence
         - Going backwards, the last/first number is "-1".
+        - Ex: Beach = ["Sand", "water", "heat"]
+                     -3       -2      -1
 
     13. How can I get the length of a sequence?
         - Use "len()" then sequence name
+        - Ex: what = len(Beach)
+                print(what)
 
     14. What can I use to reference and use a block of code later in my code?
         - Use a function
@@ -127,9 +141,15 @@ Python
 
     24. What data types can a dictionary hold?
         - Uses key: value pairs
+        - Ex: Phonebook = {
+            "name": "Tom"
+            "Number": 123 123 1234
+        }
 
     25. How can you iterate through a dictionary?
         - Use "for" loops
+        - Ex: 
+            for name in Phonebook
 
     26. What is object oriented programming?
         - A method used to categorize relateable properties into an object
