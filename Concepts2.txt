@@ -1,0 +1,67 @@
+HTML & CSS Review
+
+1. HTML --> The foundation/ structure of a web page.
+            + Uses Tags/elements to frame a webpage.
+
+2. Tags/elements --> Basic building blocks of HTML
+            + <html>
+              <head>
+                  <title></title>
+              </head>
+              <body>
+                   <main></main>
+              </body>
+              </html>
+
+3. Forms --> Allows users to enter data onto the webpage.
+            + Immediately updates interface
+            + Made up of 1 or more form controls(fieldset, input, etc.)
+
+4. CSS --> Cascading Style Sheets
+            + Adjusts colors, fonts, layouts, and other styles from HTML elements.
+            + Changes the look and feel of a webpage.
+
+5. External Stylesheets --> One of the ways to use CSS
+            + Create a CSS files.
+            + Connect the CSS file to a HTML file using "<link>"
+            + Ex: <link rel= "stylesheet" href= "style.css" />
+
+6. Cascading/Specificity --> A set of rules that a CSS file follows
+                            + Reads from top to bottom
+                            + if two rules are on one elements, everything at the bottom 
+                            rules out the top.
+
+7. IDs & Classes --> Ways to specify/target specific elements.
+                    + IDs only targets one element at a time
+                    + Classes can target multiple elements
+
+8. Media Queries --> A method for a webpage to adjst to different screen sizes.
+                    + Ex: @media screen and (min-width: ...){
+                        .box1{
+                            color: blue;
+                        }
+                    }
+
+9. Floating --> Adjust HTML elements to wrap around other elements
+                + Overflow adjusts to floating elements
+                + Clear prevents other elements from being affected
+
+10. Positioning --> Used to move, manipulate and reposition elements within the document
+                    browser flow.
+                    + Uses "top", "bottom", "left", and "right" properties to move
+                    + 4 Types:
+                        - Static --> Default position
+
+                        - Relative --> Moves indepently starting from accompanying 
+                                       property.
+
+                        - Absolute --> Separates from the entire document flow
+                                       - Position against the 1st non-static element
+                                       - Positions in the body if all elements are
+                                         static.
+
+                        - Fixed --> Similar to Absolute, but stays fixed to the browser
+                                    window in a set position.
+                        
+                        - Sticky --> Positions off of the scroll position of a user.
+                                    - Switches between relative and fixed.
