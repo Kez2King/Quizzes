@@ -1,0 +1,130 @@
+What is an IP Address?
+    - Your local computer's indentification 
+
+What is the IP address to your computer?
+    - 127.0.0.1
+
+What is another name for the IP address of your computer?
+    - Internet Protocol
+    - Address
+
+What is a Port?
+    - A specific process to present messages being processed through a server.
+
+What is a Domain Name and what’s happening when you make a request to it via your browser?
+    - It's a Website Address. If you request it, it will take you to a website with
+      with the same Domain Name.
+
+What is a Server?
+    - A program that provides functionality to other programs/devices.
+
+Is a Server a part of the Backend or Frontend of the web?
+    - The server is part of the Backend of the web.
+
+What is a Client?
+    - The programs/devices that Server provide functionality for.
+
+Is a Client a part of the Backend or Frontend of the web?
+    - Clients are part of the Frontend of the web.
+
+A Server-Side programming language is something that can do what?
+    - They can code in the Backend aspect of web development.
+
+What are the primary languages to develop for the web / Client-Side?
+    - HTML
+    - CSS (Cascading Style Sheets)
+    - JavaScript
+
+What does Node allow us to do with one of the Client-Side languages?
+    - Node.js allows developers to make fast web servers in JavaScript. 
+
+What is one way to retrieve and use others code in my project?
+    - Fetch() is one way because it make request to other servers to load information.
+
+Where can I find these different pieces of code?
+    - Other Websites (like StackOverview, Github, etc)
+
+What are these pieces of code called?
+    - Source code
+
+How can I create my own piece of code for use in my project or others?
+    - The use of functions and file management
+
+How do I add that piece of code in a specific file I want to use it in?
+    - Use the require()
+
+Where can I find all of the pieces of code I’ve added from others into my project?
+    - The Network tab in the chrome dev tools.
+
+What is an HTTP request?
+    - Requests made by the client to access resources on a server.
+
+What are the various HTTP status codes and what do each of them relate to?
+    - 100: Informational Response
+    - 200: Successful Response
+    - 300: Redirection Message
+    - 400: Client-Error Response
+    - 500: Server Error Response
+
+What is Routing?
+    - Directs HTTP requests to the code that handles them.
+
+What is an API?
+    - Allows for 2 applications to communicate with each other and share information.
+
+What is an API Key?
+    - Specific code to manage and track how APIs are being used.
+
+What is JSON?
+    - A way to store and transport data, used when data is sent to a webpage.
+
+What is the DOM?
+    - Document Object Model, aka the Browser
+
+What is the BOM?
+    - Browser Object Model,  aka the Window
+
+What can we use in order to respond to some interaction on a web page?
+    - We can use "EventListerners" to respond.
+
+Referring to the previous question, what are some specific things we can respond to?
+    - "OnClick", "MouseOver", "MouseDown", "OnScroll", etc.
+
+Where can I go to see a web pages’ requests and their statuses?
+    - Use the Chrome Dev Tools, go the the "Network" tab and refresh the page.
+    - The colors are called a "Waterfall" which shows how fast the request returned.
+
+What can I use in code to ensure a website looks good on both a desktop browser and mobile browser?
+    - In CSS, the use of media queries to make the website responsive.
+
+What can I use in a browser to ensure a website looks good on mobile and desktop?
+    - You can use the Chrome Dev Tool (left click the screen and click 'inspect')
+
+What type of CSS selector can I use to target a single element?
+    - Use an ID selector tag
+
+What type of CSS selector can I use to target multiple elements?
+    - Use a Class selector tag
+
+Describe the parent element and a child element.
+    - The child elements are elements nested inside another element, parent element.
+
+What does the return keyword do in JavaScript?
+    - Returns a block of code to its function for later use.
+
+What’s the difference between let and const?
+    - The "const" variables cannot be changed they are Immutable, but the "let" is mutable.
+
+What are Promises in detail?
+    - Its the connection between "producer" of the code and the "reciever."
+
+Why do we need Promises?
+    - Makes it easier handle multiple operations
+    - Also, catch any unmanageable codes.
+
+What are two ways we can choose a set of code to run based on some condition.
+    - Module.export
+    - Require('file.name')
+
+What’s one thing I can use to help me debug my code?
+    - Error Handling and Print Statements
