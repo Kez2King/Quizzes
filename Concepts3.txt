@@ -91,7 +91,7 @@
     - Browser Object Model
 
 27. What can we use in order to respond to some interaction on a web page?
-    - We can use "EventListerners" to respond.
+    - JavaScript
 
 28. Referring to the previous question, what are some specific things we can respond to?
     - "OnClick", "MouseOver", "MouseDown", "OnScroll", etc.
@@ -116,21 +116,24 @@
     - The child elements are elements nested inside another element, parent element.
 
 35. What does the return keyword do in JavaScript?
-    - Returns a block of code to its function for later use.
+    - Returns a value to its function for later use.
+    - Stops the functions execution.
 
 36. What’s the difference between let and const?
-    - The "const" variables cannot be changed they are Immutable, but the "let" is mutable.
+    - The "const" variables cannot be changed, they are Immutable, but the "let" is mutable.
 
 37. What are Promises in detail?
     - Its the connection between "producer" of the code and the "reciever."
+    - Represents something that we are expecting to happen in the future.
 
 38. Why do we need Promises?
     - Makes it easier handle multiple operations
     - Also, catch any unmanageable codes.
+    - CallBack function
 
 39. What are two ways we can choose a set of code to run based on some condition.
-    - Module.export
-    - Require('file.name')
+    - If else Statements
+    - Switch Statements
 
 40. What’s one thing I can use to help me debug my code?
-    - Error Handling and Print Statements
+    - console.log()
